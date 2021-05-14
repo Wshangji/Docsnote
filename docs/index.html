@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>docsify笔记整理</title>
+  <title>Docsnote</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -14,9 +14,17 @@
     window.$docsify = {
       name: '导航',
       repo: '',
-      loadNavbar: true
+      logo: '',
+      loadNavbar: true,
+      subMaxLevel: 3,
+      loadSidebar: true,
+      coverpage: true,
+      // onlyCover: true,
+      ga: 'UA-XXXXX-Y',
     }
   </script>
+  <!-- Medium's 风格的图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
