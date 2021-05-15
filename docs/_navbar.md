@@ -2,6 +2,8 @@
 
 * 文档
   * [Vue.js](https://v3.vuejs.org/)
+  * [React](https://reactjs.org/)
+  * [Django](https://docs.djangoproject.com/en/3.2/)
 
 * 笔记
   * [Maven](/zh-cn/Maven/Maven.md "The Maven notes")
@@ -11,4 +13,4 @@
 
 * 语言
   * [简体中文](/README.md)
-  * [英语](/en/README.md)
+  * [English](/en/README.md)
