@@ -1,9 +1,9 @@
-## Docsnote概述
+## What it is
 
-Docsnote 是基于docsify编写的用于记录笔记和文档的平台。Docsnote能使您更好的查看寻找开发文档和命令
+Docsnote is a platform for taking notes and documents written based on DocSify. Docsnote allows you to better view and find development documents and commands
 
-### Docsnote包含什么
+### What it is
 
-### 快速开始
+### Quick start
 
-## 关于我们
+## About
