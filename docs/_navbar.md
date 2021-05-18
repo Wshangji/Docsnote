@@ -7,7 +7,7 @@
 
 * 笔记
   * [Maven](/zh-cn/Maven/Maven.md "The Maven notes")
-  * [Git](/zh-cn/Git/Git.md)
+  * [Git](/zh-cn/Git/README.md)
   * [Docker](/zh-cn/Docker/Docker.md)
   * [Java](/zh-cn/Java/Java.md)
 
