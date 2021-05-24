@@ -123,3 +123,36 @@ P1端口分析方法如前面所述一样，只是该端口内部未接上拉电
 
 左边为低128位地址，其中00H到1FH为工作寄存器区，分为4组，每一组又可分为R0到R7八个地址，在程序调用时，例如 MOV A，R0，但无法确定R0是这四组工作寄存区那一组，其实在PSW特殊功能寄存器中的第3和第4位中的数据来决定，若为01，则为第一组，其余则以此类推（任一时刻，只能使用一个寄存器组；CPU复位后，默认选择第0组）。20H到2FH为位寻址区，即这16个地址中的每一个地址中的每一位布尔数都可以直接改变其值，例如20.3H就表示为20H地址中的第4个数。30H到7FH为数据缓冲区，基本都可以随便使用。右边为高128位地址区，除了其中18个特殊功能寄存器的21个地址可以直接访问外，其余都不行。当特殊功能寄存器的地址为0或8结尾（即能被8整除），则该特殊功能寄存器可以进行位寻址操作
 
+#### 片外存储器
+
+![](https://img-blog.csdnimg.cn/20200307205814956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+### 单片机的复位
+
+#### 寄存器状态
+
+![](https://img-blog.csdnimg.cn/20200307211626888.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+#### 复位电路
+
+![](https://img-blog.csdnimg.cn/20200307211719149.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+### 低功耗工作方式
+
+> - 待机工作方式
+> - 掉电工作方式
+
+![](https://img-blog.csdnimg.cn/20200307211947791.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+#### 待机工作方式
+
+![](https://img-blog.csdnimg.cn/20200307212033992.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+![](https://img-blog.csdnimg.cn/20200307212106324.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+#### 掉电工作方式
+
+![](https://img-blog.csdnimg.cn/20200307212145999.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
+![](https://img-blog.csdnimg.cn/2020030721221669.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NTI1MTQx,size_16,color_FFFFFF,t_70)
+
