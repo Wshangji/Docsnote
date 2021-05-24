@@ -7,6 +7,7 @@
 
 * 笔记
   * [Git](/zh-cn/Git/README.md)
+  * [MySQL](/zh-cn/MySQL/README.md)
   * [单片机](/zh-cn/SCM/README.md)
 
 * 语言

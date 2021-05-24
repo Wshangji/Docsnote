@@ -9,6 +9,11 @@
     * [***简介***](/zh-cn/Git/README.md)
     * [***快速开始***](/zh-cn/Git/Quackly.md)
 
+- **MySQL**
+
+    * [***简介***](/zh-cn/Mysql/README.md)
+
+
 - **单片机**
 
     * [***基本概念***](/zh-cn/SCM/README.md)
