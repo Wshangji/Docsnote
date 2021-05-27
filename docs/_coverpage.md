@@ -7,5 +7,5 @@
 - 众多笔记
 - Author by TongWY
 
-[Blog](https://wshangji.github.io/)
+[Author's Blog](https://wshangji.github.io/)
 [Get Started](/README.md)
