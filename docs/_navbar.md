@@ -9,7 +9,8 @@
   * [Git](/zh-cn/Git/README.md)
   * [MySQL](/zh-cn/MySQL/README.md)
   * [单片机](/zh-cn/SCM/README.md)
+  * [机器学习](/zh-cn/LeeML-Notes/README.md)
 
-* 语言
+<!-- * 语言
   * [简体中文](/README.md)
-  * [English](/en/README.md)
+  * [English](/en/README.md) -->
