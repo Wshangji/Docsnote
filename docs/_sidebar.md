@@ -3,17 +3,5 @@
     * [***简介***](/README.md)
     * [***快速开始***](/zh-cn/Quickly.md)
     * [***关于我们***](/zh-cn/About.md)
-
-- **Git**
-
-    * [***简介***](/zh-cn/Git/README.md)
-    * [***快速开始***](/zh-cn/Git/Quackly.md)
-
-- **MySQL**
-
-    * [***简介***](/zh-cn/Mysql/README.md)
-
-
-- **单片机**
-
-    * [***基本概念***](/zh-cn/SCM/README.md)
+    * [***更新记录***](/zh-cn/About.md)
+    * [***鸣谢***](/zh-cn/About.md)
