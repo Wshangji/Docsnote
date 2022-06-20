@@ -8,4 +8,4 @@
 - Author by TongWY
 
 [Author's Blog](https://wshangji.github.io/)
-[Get Started](/README.md)
+[Get Started](/zh-cn/README.md)
